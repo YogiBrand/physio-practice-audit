@@ -1,0 +1,51 @@
+========================================
+  PROFIT CALCULATOR - CONFIGURATION
+========================================
+
+📋 Copy these values after setting up EmailJS and Google Sheets
+
+EMAILJS CREDENTIALS:
+━━━━━━━━━━━━━━━━━━━━
+Public Key:    _________________________________
+Service ID:    _________________________________
+Template ID:   _________________________________
+
+GOOGLE SHEETS:
+━━━━━━━━━━━━━━━━━━━━
+Apps Script URL: _________________________________
+
+========================================
+
+📍 WHERE TO ADD THESE IN YOUR CODE:
+
+Open: src/App.js
+
+1. Line 164 - Replace: YOUR_EMAILJS_PUBLIC_KEY
+   With: [Your Public Key from above]
+
+2. Line 167 - Replace: YOUR_SERVICE_ID
+   With: [Your Service ID from above]
+
+3. Line 168 - Replace: YOUR_TEMPLATE_ID
+   With: [Your Template ID from above]
+
+4. Line 115 - Replace: YOUR_GOOGLE_APPS_SCRIPT_URL
+   With: [Your Apps Script URL from above]
+
+========================================
+
+✅ TESTING CHECKLIST:
+
+□ Dependencies installed (npm install)
+□ EmailJS account created
+□ Email service connected
+□ Email template created
+□ Google Sheet created with headers
+□ Apps Script deployed
+□ All 4 values updated in App.js
+□ Test submission completed
+□ Email received
+□ Data appears in Google Sheet
+
+========================================
+
